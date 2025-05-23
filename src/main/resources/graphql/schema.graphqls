@@ -1,0 +1,9 @@
+type Employee{
+    id:ID
+    name:String
+    dept:String
+}
+
+type Query{
+    getAllEmployees:[Employee]
+}
